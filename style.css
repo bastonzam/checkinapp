@@ -1,0 +1,75 @@
+#cameraInput {
+  display: none;
+}
+
+#showPicture {
+  width: 100%;
+  height: auto;
+  margin-top: 16px;
+}
+
+.btn {
+  display: inline-block;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  filter: brightness(0.9);
+}
+
+.btn-kerry{
+  background-color: #f37204;
+  text-transform:uppercase
+}
+
+.d-none{
+  display: none!important;
+}
+
+.d-block {
+  display: block !important;
+}
+.text-center{
+  text-align: center!important;
+  text-align: -webkit-center!important;
+}
+.force-center{
+  position: relative;
+  left: 50%;
+  transform: translate(0%, -50%);
+}
+
+.loader {
+      border: 5px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 5px solid #f37204;
+      width: 20px;
+      height: 20px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
